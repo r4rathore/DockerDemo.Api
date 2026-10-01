@@ -1,2 +1,3 @@
 https://machinelearningmastery.com/local-agentic-ai-workflows-with-hermes-ollama/
 curl -L https://ollama.com/download/OllamaSetup.exe -o OllamaSetup.exe
+netsh advfirewall firewall add rule name="Ollama" dir=in action=allow protocol=TCP localport=11434
